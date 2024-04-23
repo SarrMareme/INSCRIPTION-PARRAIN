@@ -1,0 +1,49 @@
+.EnregistrementProfilParrain {
+  text-align: center;
+}
+
+.EnregistrementProfilParrain-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .EnregistrementProfilParrain-logo {
+    animation: EnregistrementProfilParrain-logo-spin infinite 20s linear;
+  }
+}
+
+.EnregistrementProfilParrain-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.EnregistrementProfilParrain-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EnregistrementProfilParrain-form label {
+  margin-bottom: 10px;
+}
+
+.EnregistrementProfilParrain-link {
+  color: #61dafb;
+}
+
+@keyframes EnregistrementProfilParrain-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
